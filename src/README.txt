@@ -1,6 +1,8 @@
 This directory contains the source code files needed to compile the GF1 Rev. A
 Configuration Program. A list of relevant files follows:
-– conf-gf1-ra.c;
+– gf1-ra-conf.c;
+– libusb-extra.c;
+– libusb-extra.h;
 – Makefile.
 
 In order to compile the above command successfully, you must have the packages
