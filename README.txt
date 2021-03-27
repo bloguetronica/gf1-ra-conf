@@ -27,8 +27,8 @@ invoking "sudo ./install-rules.sh".
 
 To uninstall, you should run "uninstall.sh" by typing "sudo ./uninstall.sh",
 again on a terminal window after making sure that your working directory is
-this one. This will delete all the previously installed binaries, the related
-man pages and the source code. However it won't remove the "build-essential"
+this one. This will delete the previously installed binary, the corresponding
+man page and the source code. However it won't remove the "build-essential"
 and "libusb-1.0-0-dev" packages, since they could be already installed prior
 to the first installation. This script will not remove the previously created
 rules (if applicable) and, therefore, you should run "uninstall-rules.sh" by
