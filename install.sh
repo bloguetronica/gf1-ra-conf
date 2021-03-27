@@ -7,6 +7,10 @@ apt-get -qq install libusb-1.0-0-dev
 echo Copying source code files...
 mkdir -p /usr/local/src/gf1-ra-conf
 cp -f src/gf1-ra-conf.c /usr/local/src/gf1-ra-conf/.
+cp -f src/GPL.txt /usr/local/src/gf1-ra-conf/.
+cp -f src/LGPL.txt /usr/local/src/gf1-ra-conf/.
+cp -f src/libusb-extra.c /usr/local/src/gf1-ra-conf/.
+cp -f src/libusb-extra.h /usr/local/src/gf1-ra-conf/.
 cp -f src/Makefile /usr/local/src/gf1-ra-conf/.
 cp -f src/README.txt /usr/local/src/gf1-ra-conf/.
 echo Building and installing binaries...
